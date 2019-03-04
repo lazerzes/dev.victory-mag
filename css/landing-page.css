@@ -30,7 +30,7 @@ html, body {
     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 }
 
-.banner{
+#banner{
     height: 12em;
     margin-left: auto;
   margin-right: auto;
@@ -52,12 +52,14 @@ font-size: 1.25em;
     width: 300px;
     height: 40px;
     background-color: #9EE1B7;
+    color:#333333;
     text-align: center;font-family: 'Open Sans Condensed', sans-serif;
 }
 #button2{
     width: 300px;
     height: 40px;
     background-color: #9EE1B7;
+    color:#333333;
     text-align: center;font-family: 'Open Sans Condensed', sans-serif;
 }
 #container{

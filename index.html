@@ -26,16 +26,115 @@
 
         <link href="css/landing-page.css" rel="stylesheet">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                var num_imgs = 8;
+                var delay_ms = 30000;
+
+                var img1 = document.getElementById("bg1");
+                var img2 = document.getElementById("bg2");
+                
+                var min = 1
+                var max = num_imgs;
+
+                var curr1 = 1;
+                var curr2 = 2;
+
+               
+
+                function getBackgrounds(){
+
+                    var r1 = Math.floor(Math.random() * (+max - +min)) + +min;
+                    var r2 = Math.floor(Math.random() * (+max - +min)) + +min; 
+
+                    while(r1 === curr1){
+                        r1 = Math.floor(Math.random() * (+max - +min)) + +min;
+                    }
+
+                    while (r2 === curr2 || r2 === r1){
+                        r2 = Math.floor(Math.random() * (+max - +min)) + +min;
+                    }
+
+                    curr1 = r1;
+                    curr2 = r2;
+                    var s1 = r1.toString();
+                    var s2 = r2.toString();
+
+                    while(s1.length < 3){
+                        s1 = "0" + s1
+                    }
+
+                    while(s2.length < 3){
+                        s2 = "0" + s2
+                    }
+
+                    
+                    img1.src = "img/bg/" + s1 + ".png";
+                    img2.src = "img/bg/" + s2 + ".png";
+                }
+
+                function updateBackgrounds(){
+
+                    $(".bg_landing").fadeOut('fast', getBackgrounds);
+                    
+                    $(".bg_landing").fadeIn('fast');
+                    
+                    setTimeout(updateBackgrounds, delay_ms);
+
+                }
+
+                setTimeout(updateBackgrounds, delay_ms);
+            });
+        </script>
+
+        <script>
+            function swapBanner(){
+
+                banner = document.getElementById("banner");
+
+                var button1 = $('#button1');
+                var button2 = $('#button2');
+
+
+                var num_banners = 2;
+                var colors = ["#9EE1B7","#8F0F3F"]
+                var text = ["#333333", "#FEFEFE"]
+
+                bnnrsrc = banner.getAttribute('src')
+
+                var filename = bnnrsrc.substring(bnnrsrc.lastIndexOf('/')+1);
+                var curr = parseInt(filename.slice(0, -4));
+
+                var n = ++curr;
+                if (n > num_banners){
+                    n = 1;
+                }
+
+                var upd_src = "img/banner/" + (n).toString() + ".png" 
+                
+                button1.css("background-color", colors[n-1]);
+                button2.css("background-color", colors[n-1]);
+                button1.css("color", text[n-1]);
+                button2.css("color", text[n-1]);
+
+                banner.src = upd_src;
+
+
+
+            }
+        </script>
+
     </head>
 
     <body>
-        <img class="img_fluid bg_landing" src="img/bg001.png">
-        <img class="img_fluid bg_landing" src="img/bg002.png">
+        <img class="img_fluid bg_landing" id="bg1" src="img/bg/001.png">
+        <img class="img_fluid bg_landing" id="bg2" src="img/bg/002.png">
         <div class="h-100 row align-items-center">
         <div id="outPopUp" class="col-lg-8 col-xs-12">
-            <img  class="banner" src="img/banner.png">
+            <img  id="banner" src="img/banner/1.png" onclick="swapBanner()">
             <p>A BNHA fanzine dedicated to the future shenanigans and hijinks of the UA High kids!</p>
-            <div id="container">
+            <div id="container" class="button-container">
                     <a href="https://victory-mag.tumblr.com/"><button type="button learn-button" id="button1" >Learn More</button></a>
                     <a href="https://goo.gl/forms/tylLaktfrMKWg5N42"><button type="button sub-button" id="button2">Subscribe for Updates</button></a>
             </div>
