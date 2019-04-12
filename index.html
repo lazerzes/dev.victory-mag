@@ -58,8 +58,15 @@
 
                     curr1 = r1;
                     curr2 = r2;
-                    var s1 = r1.toString();
-                    var s2 = r2.toString();
+                    
+                }
+
+                function updateBackgrounds(){
+
+                    $(".bg_landing").fadeOut('fast', getBackgrounds);
+                    
+                    var s1 = curr1.toString();
+                    var s2 = curr2.toString();
 
                     while(s1.length < 3){
                         s1 = "0" + s1
@@ -72,14 +79,9 @@
                     
                     img1.src = "img/bg/" + s1 + ".png";
                     img2.src = "img/bg/" + s2 + ".png";
-                }
-
-                function updateBackgrounds(){
-
-                    $(".bg_landing").fadeOut('fast', getBackgrounds);
                     
                     $(".bg_landing").fadeIn('fast');
-                    
+                   
                     setTimeout(updateBackgrounds, delay_ms);
 
                 }
