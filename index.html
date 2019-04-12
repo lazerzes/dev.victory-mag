@@ -27,70 +27,7 @@
         <link href="css/landing-page.css" rel="stylesheet">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script>
-            $(function(){
-                var num_imgs = 8;
-                var delay_ms = 30000;
-
-                var img1 = document.getElementById("bg1");
-                var img2 = document.getElementById("bg2");
-                
-                var min = 1
-                var max = num_imgs;
-
-                var curr1 = 1;
-                var curr2 = 2;
-
-               
-
-                function getBackgrounds(){
-
-                    var r1 = Math.floor(Math.random() * (+max - +min)) + +min;
-                    var r2 = Math.floor(Math.random() * (+max - +min)) + +min; 
-
-                    while(r1 === curr1){
-                        r1 = Math.floor(Math.random() * (+max - +min)) + +min;
-                    }
-
-                    while ((r2 === curr2 || r2 === r1)){
-                        r2 = Math.floor(Math.random() * (+max - +min)) + +min;
-                    }
-
-                    curr1 = r1;
-                    curr2 = r2;
-                    
-                    var s1 = r1.toString();
-                    var s2 = r2.toString();
-
-                    while(s1.length < 3){
-                        s1 = "0" + s1
-                    }
-
-                    while(s2.length < 3){
-                        s2 = "0" + s2
-                    }
-
-                    
-                    img1.src = "img/bg/" + s1 + ".png";
-                    img2.src = "img/bg/" + s2 + ".png";
-                    
-                    
-                }
-
-                function updateBackgrounds(){
-
-                    $(".bg_landing").fadeOut('fast', getBackgrounds);
-                    
-                    
-                    $(".bg_landing").fadeIn('fast');
-                   
-                    setTimeout(updateBackgrounds, delay_ms);
-
-                }
-
-                setTimeout(updateBackgrounds, delay_ms);
-            });
-        </script>
+        <script src="js/landing.js"></script>
 
         <script>
             function swapBanner(){
@@ -99,7 +36,6 @@
 
                 var button1 = $('#button1');
                 var button2 = $('#button2');
-
 
                 var num_banners = 2;
                 var colors = ["#9EE1B7","#8F0F3F"]
