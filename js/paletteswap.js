@@ -12,13 +12,15 @@ function next_palette() {
     "id": 0,
     "background-color": "#9EE1B7",
     "color": "#333333",
-    "banner": "0.png"
+    "banner": "0.png",
+    "link": "#9EE1B7"
   }, {
     "name": "dark",
     "id": 1,
     "background-color": "#8F0F3F",
     "color": "#FEFEFE",
-    "banner": "1.png"
+    "banner": "1.png",
+    "link": "#8F0F3F"
   }];
 
 
@@ -39,6 +41,9 @@ function set_palette(banner, palette) {
   var swapable = $('.swapable');
   swapable.css("background-color", palette["background-color"]);
   swapable.css("color", palette["color"]);
+
+  var links = $('.swap-link');
+  links.css("color", palette['link'])
 
   banner.src = "img/banner/" + palette["banner"];
 }

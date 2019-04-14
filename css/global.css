@@ -40,6 +40,7 @@ html, body {
 }
 
 #container button{
+    margin-top: .2em;
     width: 210px;
     height: 40px;
     text-align: center;font-family: 'Open Sans Condensed', sans-serif;
@@ -62,4 +63,16 @@ html, body {
     display:block;
     width:100%; height:100%;
     object-fit: cover;
+}
+
+.swap-link{
+    text-decoration: none;
+    color: #9EE1B7;
+}
+
+.swap-link:hover{
+    text-decoration:none;
+    color:currentColor;
+    
+
 }
