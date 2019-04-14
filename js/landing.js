@@ -1,11 +1,14 @@
-$(function() {
+$(function () {
 
   var num_bgs_available = 8;
   var num_bgs_displayed = 2;
   var available_bgs = []
-  var delay_ms = 30000;
+  var delay_ms = 30 * 1000;
+  var new_bgs = []
+  var current_bgs = []
 
-  for (var i = 0; i < num_bgs; i++) {
+
+  for (var i = 0; i < num_bgs_available; i++) {
 
     s = (i + 1).toString();
     while (s.length < 3) {
@@ -17,45 +20,50 @@ $(function() {
     available_bgs.push(s);
 
   }
-  
-  var current_bgs = available_bgs.slice(0, num_bgs_displayed);
-  set_backgrounds(current_bgs);
-  setTimeout(change_backgrounds(available_bgs, current_bgs), delay_ms)
 
-  function get_new_backgrouds(available_bgs, current_bgs) {
+  current_bgs = available_bgs.slice(0, num_bgs_displayed);
+  set_backgrounds(current_bgs);
+  setTimeout(change_backgrounds, delay_ms)
+
+  function get_new_backgrouds() {
 
     var choices = available_bgs.slice();
 
     //filtering out current backgrounds
-    var i0 = current_bgs[0];
-    var i1 = current_bgs[1];
-    if (i0 !== -1) choices.splice(i0, 1);
-    if (i1 !== -1) choices.splice(i1, 1);
+    for (var i = 0; i < current_bgs.length; i++) {
+      var x = choices.indexOf(current_bgs[i])
+      if (x !== -1) choices.splice(x, 1);
+    }
+
+    //refresh choices to default if we dot have enough. repeats possible
+    if (choices.length < num_bgs_displayed) {
+      choices = available_bgs.slice();
+    }
 
     choices = shuffle(choices);
-    return choices.slice(0, num_bgs_displayed)
+    new_bgs = choices.slice(0, num_bgs_displayed)
 
 
   }
-  
-  function set_backgrounds(new_bgs) {
+
+  function set_backgrounds() {
     for (var i = 0; i < new_bgs.length; i++) {
-      var bg = "bg" + toString(i);
-      var img = document.getElementById(bg);
+      var n = "bg" + i.toString();
+      var img = document.getElementById(n);
       img.src = "img/bg/" + new_bgs[i];
     }
+
   }
-  
-  function change_backgrounds(available_bgs, current_bgs){
-    
-    var new_bgs = get_new_backgrouds(available_bgs, current_bgs);
-    //fade out
-    set_backgrounds(new_bgs);
-    //fade_in
-    setTimeout(change_backgrounds(available_bgs, new_bgs), delay_ms)
-    
+
+  function change_backgrounds() {
+    get_new_backgrouds();
+    $(".bg").fadeOut('fast', set_backgrounds);
+    $(".bg").fadeIn('fast');
+    current_bgs = new_bgs;
+    setTimeout(change_backgrounds, delay_ms)
+
   }
-  
+
   function shuffle(array) {
     var m = array.length,
       t, i;
@@ -75,7 +83,7 @@ $(function() {
     return array;
   }
 
-  
+
 
 
 });

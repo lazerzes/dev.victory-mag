@@ -1,32 +1,59 @@
-$(function() {
-  
-  var palettes = array({
+$(function () {
+
+  palette_default();
+
+});
+
+
+function next_palette() {
+
+  var palettes = [{
     "name": "light",
     "id": 0,
-    "backgound-color": "#9EE1B7",
+    "background-color": "#9EE1B7",
     "color": "#333333",
-    "banner": "1.png"
+    "banner": "0.png"
   }, {
     "name": "dark",
     "id": 1,
     "background-color": "#8F0F3F",
     "color": "#FEFEFE",
-    "banner": "2.png"
-  });
-  
-  var curr = 0; 
-  var p = next_palette(0, palettes);
-  console.log("pal next-> 0:", p);
-  p = next_palette(1, palettes);
-  console.log("pal next-> 1:", p);
-  
-  function next_palette(index, palettes){
-    
-    index++;
-    c = index % palettes.length;
-    
-    return palettes[c];
-    
+    "banner": "1.png"
+  }];
+
+
+  var banner = document.getElementById("banner");
+  var filename = banner.src.substring(banner.src.lastIndexOf('/') + 1);
+  var curr = parseInt(filename.slice(0, -4));
+
+  curr++;
+  curr = curr % palettes.length;
+  set_palette(banner, palettes[curr]);
+
+
+
+}
+
+function set_palette(banner, palette) {
+
+  var swapable = $('.swapable');
+  swapable.css("background-color", palette["background-color"]);
+  swapable.css("color", palette["color"]);
+
+  banner.src = "img/banner/" + palette["banner"];
+}
+
+function palette_default() {
+  p = {
+    "name": "light",
+    "id": 0,
+    "background-color": "#9EE1B7",
+    "color": "#333333",
+    "banner": "0.png"
   }
 
-});
+  var banner = document.getElementById("banner");
+
+  set_palette(banner, p)
+
+}
