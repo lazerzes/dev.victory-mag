@@ -42,6 +42,10 @@ function set_palette(banner, palette) {
   swapable.css("background-color", palette["background-color"]);
   swapable.css("color", palette["color"]);
 
+
+  var background = $('.swapable-background');
+  background.css("background-color", palette["background-color"]);
+
   var links = $('.swap-link');
   links.css("color", palette['link'])
 

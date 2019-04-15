@@ -1,0 +1,38 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+button{
+    width: 210px;
+    height: 40px;
+    text-align: center;font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#staff-container{
+    margin: 0px 10px;
+    padding-bottom: 2em;
+}
+
+.profile{
+    max-width: 100%;
+    height: auto;
+}
+
+.title{
+    color: #646464;
+    font-size: .90em;
+    margin-top: -1px;
+    margin-bottom: 0px;
+}
+
+.pronouns{
+    color: grey;
+    margin-top: -2px;
+    font-size: .85em;
+}
+
+.alias{
+    color: lightslategray;
+    font-size:.85em;
+    font-style: italic;
+}

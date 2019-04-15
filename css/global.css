@@ -40,10 +40,20 @@ html, body {
 }
 
 #container button{
-    margin-top: .2em;
     width: 210px;
     height: 40px;
     text-align: center;font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.button-menu{
+    border-radius: 8px 8px 8px 8px;
+-moz-border-radius: 8px 8px 8px 8px;
+-webkit-border-radius: 8px 8px 8px 8px;
+border: 0px solid #000000;
+    -webkit-box-shadow: -4px 14px 24px -13px rgba(0,0,0,0.53);
+-moz-box-shadow: -4px 14px 24px -13px rgba(0,0,0,0.53);
+box-shadow: -4px 14px 24px -13px rgba(0,0,0,0.53);
+    
 }
 
 
@@ -51,6 +61,11 @@ html, body {
     background-color: #9EE1B7;
     color:#333333;
 }
+
+.swapable-background{
+    background-color: #9EE1B7;
+}
+
 
 #container{
     text-align: center;

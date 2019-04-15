@@ -2,6 +2,4 @@
      /* Add the blur effect */
   filter: blur(5px);
   -webkit-filter: blur(5px);
-
-
 }
