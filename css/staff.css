@@ -54,3 +54,7 @@ button{
     margin-right: auto;
     width: 75%;
   }
+
+  .about{
+      font-size:.85em;
+  }
