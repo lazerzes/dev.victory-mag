@@ -1,6 +1,6 @@
 $(function () {
 
-  var num_bgs_available = 8;
+  var num_bgs_available = 11;
   var num_bgs_displayed = 2;
   var available_bgs = []
   var delay_ms = 30 * 1000;

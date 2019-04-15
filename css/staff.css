@@ -14,8 +14,12 @@ button{
 }
 
 .profile{
-    max-width: 100%;
+    max-width: 250px;
+    max-height: 250px;
     height: auto;
+    width: auto;
+    margin-top:.5em;
+    margin-bottom:.25em;
 }
 
 .title{
@@ -36,3 +40,17 @@ button{
     font-size:.85em;
     font-style: italic;
 }
+
+.social{
+    padding-bottom:.5em;
+    min-width: 64px;
+    min-height: 64px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
