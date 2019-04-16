@@ -53,7 +53,7 @@ function next_palette() {
     "name": "pink",
     "id": 6,
     "background-color": "#958aa9",
-    "color": "#333333",
+    "color": "#000000",
     "banner": "6.png",
     "link": "#958aa9"
   }, {
@@ -142,7 +142,7 @@ function palette_default() {
     "name": "pink",
     "id": 6,
     "background-color": "#958aa9",
-    "color": "#333333",
+    "color": "#000000",
     "banner": "6.png",
     "link": "#958aa9"
   }, {
