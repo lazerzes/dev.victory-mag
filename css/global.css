@@ -6,7 +6,13 @@ body {
   display: block;
   background-color: #333333;
   text-align: center;font-family: 'Open Sans Condensed', sans-serif;
-  overflow-x:hidden;
+  overflow-x:hidden; 
+}
+
+#banner{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 #outPopUp {
@@ -44,6 +50,11 @@ html, body {
     width: 210px;
     height: 40px;
     text-align: center;font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button{
+    padding-bottom: .5em;
+    margin-bottom: .5em;
 }
 
 .shadow{
