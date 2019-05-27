@@ -56,15 +56,12 @@ button{
     margin-right: auto;
     width: 75%;
 }
-
-
-.about{
-      font-size:.85em;
+.bio{
+    font-size:.85em;
       margin-top:1px;
       margin-bottom:0px;
       white-space: pre-wrap;
-  }
-
+}
 .favourite{
     font-size:.85em;
     margin-top:1px;

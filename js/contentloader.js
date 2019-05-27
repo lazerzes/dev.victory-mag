@@ -30,9 +30,9 @@ async function load_json_content(content_file, group) {
         bio.setAttribute("class", "bio");
 
         var bio1 = document.createElement("p");
-        bio1.setAttribute("class", "about col");
+        bio1.setAttribute("class", "about1 col");
         var bio2 = document.createElement("p");
-        bio2.setAttribute("class", "about col");
+        bio2.setAttribute("class", "about2 col");
         var bio_text1 = document.createTextNode(person.bio1);
         var bio_text2 = document.createTextNode(person.bio2);
         bio1.appendChild(bio_text1);
@@ -96,6 +96,7 @@ async function load_json_content(content_file, group) {
     cards.forEach(function(card){
         content_container.appendChild(card);
     });
+    sleep(100);
 
     equalize_container();
 
@@ -126,34 +127,19 @@ while ( new Date().getTime() < now + millisecondsToWait )
 
 function equalize_container(){
 
-    var max1 = -1;
-    $('.bio').each(function() {
-        var h = $(this).height(); 
-        max1 = h > max1 ? h : max1;
-    });
-    
-    $('.bio').each(function() {
-        $(this).css({'min-height': max1});
-    });
+    selectors = ['.about1', '.about2', '.bio', '.card-container', '.card']
 
-    var max2 = -1;
-    $('.card-container').each(function() {
-        var h = $(this).height(); 
-        max2 = h > max2 ? h : max2;
-    });
-    
-    $('.card-container').each(function() {
-        $(this).css({'min-height': max2});
-    });
+    selectors.forEach(function(selector){
+        var max = -1;
+        $(selector).each(function(){
+            var h = $(this).height();
+            max = h > max ? h : max;
+        });
+        
+        $(selector).each(function(){
+            $(this).css({'min=height': max});
+        });
 
-    var max3 = -1;
-    $('.card').each(function() {
-        var h = $(this).height(); 
-        max3 = h > max3 ? h : max3;
-    });
-    
-    $('.card').each(function() {
-        $(this).css({'min-height': max3});
     });
     
 }
