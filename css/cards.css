@@ -1,5 +1,6 @@
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;
   }
 
 button{
@@ -12,6 +13,7 @@ button{
     margin: 0px 10px;
     padding-bottom: 2em;
 }
+
 
 .profile{
     max-width: 250px;
@@ -58,9 +60,24 @@ button{
 
 .about{
       font-size:.85em;
+      margin-top:1px;
+      margin-bottom:0px;
+      white-space: pre-wrap;
   }
+
+.favourite{
+    font-size:.85em;
+    margin-top:1px;
+    margin-bottom:2px;
+    white-space: pre-wrap;
+    padding-top:.5em;
+    padding-bottom: .25em;
+}
+
 
 
 .logo{
     border: none;
+    min-width: 1.5em;
+    min-height: 1.5em;
 }

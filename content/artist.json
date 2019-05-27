@@ -1,0 +1,121 @@
+{
+    "section":"Artist",
+    "content":[
+        {
+            "name": "SHARK",
+            "profile": "shark.png",
+            "position": "Artist",
+            "bio1": "My name is Shark because I have really sharp teeth!",
+            "bio2": "I love cats and collecting merch :)",
+            "fav": "Eijiro Kirishima",
+            "social": [
+                {
+                    "link": "https://twitter.com/GGULPPONG",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://www.instagram.com/ggulppong/",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "Julybeans",
+            "profile": "julybeans.png",
+            "position": "Artist",
+            "bio1": "An artist who loves to draw street fashion and her favorite characters.",
+            "bio2": "Addicted to puzzle mystery games.",
+            "fav": "Shouto Todoroki",
+            "social": [
+                {
+                    "link": "https://instagram.com/julybeans",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://twitter.com/julybeans_",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://julybeans.tumblr.com",
+                    "img": "tumblr.png"
+                }
+            ]
+        },
+        {
+            "name": "Jemsauce",
+            "profile": "jemsauce.png",
+            "position": "Artist",
+            "bio1": "Work-at-home illustrator, parent, spouse, household manager, and giant dork.",
+            "bio2": "I relate to Shouta Aizawa on a spiritual level.",
+            "fav": "Shouta Aizawa",
+            "social": [
+                {
+                    "link": "https://jemsauce.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://twitter.com/flyingjemsaucer",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://www.pillowfort.social/jemsauce",
+                    "img": "pillowfort.png"
+                }
+            ]
+        },
+        {
+            "name": "BobaFiish",
+            "profile": "bobafiish.png",
+            "position": "Artist",
+            "bio1": "Hey I'm Bobafiish!",
+            "bio2": "I'm just a simple artist that has a crazy addiction for bubble tea. ",
+            "fav": "Eijiro Kirishima",
+            "social": [
+                {
+                    "link": "https://www.instagram.com/bobafiish/",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://twitter.com/BobaFiish",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://bobafiish.tumblr.com/",
+                    "img": "tumblr.png"
+                }
+            ]
+        },{
+            "name": "Ken",
+            "profile": "ken.png",
+            "position": "Artist",
+            "bio1": "I'm a self-taught full time artist and a part time college student who loves her dog and needs a nap.",
+            "bio2": "",
+            "fav": "Mirio Togata",
+            "social": [
+                {
+                    "link": "https://twitter.com/lemellion",
+                    "img": "twitter.png"
+                }
+            ]
+        },
+        {
+            "name": "Nanometre",
+            "profile": "nanometre.png",
+            "position": "Artist",
+            "bio1": "Love me my art, maths and tea (both types), but most importantly I love all my fictional BABIES!!",
+            "bio2": "",
+            "fav": "Mei Hatsume",
+            "social": [
+                {
+                    "link": "https://www.instagram.com/nano.metre/",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://twitter.com/nanometree",
+                    "img": "twitter.png"
+                }
+            ]
+        }
+ 
+    ]
+}
