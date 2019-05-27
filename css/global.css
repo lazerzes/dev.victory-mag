@@ -7,6 +7,7 @@ body {
   background-color: #333333;
   text-align: center;font-family: 'Open Sans Condensed', sans-serif;
   overflow-x:hidden;
+  max-width: 100%;
 }
 
 #banner{
@@ -50,6 +51,7 @@ html, body {
     width: 210px;
     height: 40px;
     text-align: center;font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 2em;
 }
 
 button{

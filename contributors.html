@@ -36,25 +36,33 @@
     <script src="js/paletteswap.js"></script>
     <script src="js/contentloader.js"></script>
     <script>
-            window.onresize = function(){location.reload};
+        window.onresize = function(){location.reload};
     </script>
 
 </head>
 
-<body onload="load_json_content('staff.json', 'staff')">
+<body>
     <img class="img_fluid bg" id="bg0" src="img/bg/abstract.png">
 
     <div class="h-100 row align-items-center">
         <div id="outPopUp" class="col-lg-8 col-xs-12">
             <img id="banner" src="img/banner/0.png" onclick="next_palette()">
             <div id="container" class="button-container">
-                <a href="/index"><button type="button sub-button" class="swapable shadow">Back
-                        Home!</button></a>
-                <hr>
-                <br>
-            </div>
+                    <a href="/index"><button type="button sub-button" class="swapable shadow">Back
+                            Home!</button></a>
+                    <hr>
+                    <br>
+                </div>
+            
 
-            <h1 class="h1">Meet the Staff!</h1><br>
+            <h1 class="h1">Meet the Contributors!</h1>
+            
+                <div id="container" class="button-container">
+                        <a><button type="button sub-button" class="swapable shadow" onclick="load_json_content('artist.json', 'artist')">Artists</button></a>
+                        <a><button type="button sub-button" class="swapable shadow" onclick="load_json_content('writer.json', 'writer')">Writers</button></a>
+                        <a><button type="button sub-button" class="swapable shadow" onclick="load_json_content('designer.json', 'designer')">Designers</button></a>
+                        <br>
+                    </div>
 
             <!--
                 <div class="col-lg-3 col-xs-12">
