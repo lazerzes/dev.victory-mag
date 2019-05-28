@@ -84,6 +84,46 @@
                     "img": "twitter.png"
                 }
             ]
+        },
+        {
+            "name": "Hookedonthesky",
+            "profile": "hookedonthesky.png",
+            "position": "Writer",
+            "bio1": "A devoted reader turned writer!",
+            "bio2": "I have a weakness for main characters and am a sucker for angst with happy endings.",
+            "fav": "Izuku Midoriya",
+            "social": [
+                {
+                    "link": "https://hookedonthesky.tumblr.com",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://archiveofourown.org/users/hookedonthesky/works",
+                    "img": "ao3.png"
+                }
+            ]
+        },
+        {
+            "name": "Deafmic",
+            "profile": "deafmic.png",
+            "position": "Writer",
+            "bio1": "I'm Deafmic and I like to write stories about found families!",
+            "bio2": "",
+            "fav": "Hitoshi Shinsou",
+            "social": [
+                {
+                    "link": "https://deafmic.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://twitter.com/deafmic",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://archiveofourown.org/users/deafmic/",
+                    "img": "ao3.png"
+                }
+            ]
         }
  
     ]

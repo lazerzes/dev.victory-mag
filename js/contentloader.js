@@ -13,7 +13,7 @@ async function load_json_content(content_file, group) {
     sleep(3500);
     var people = data.content;
     if(group !== "staff"){
-        people.sort((a,b) => (a.name > b.name) ? 1 : -1);
+        people.sort((a,b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : -1);
     }
     var cards = [];
     people.forEach(function(person){

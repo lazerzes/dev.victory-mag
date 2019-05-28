@@ -60,7 +60,7 @@ h2{
 
 .title{
     color: #646464;
-    font-size: .90em;
+    font-size: 1.5em;
     margin-top: -1px;
     margin-bottom: 0px;
 }
@@ -93,14 +93,14 @@ h2{
 
 
 .about{
-      font-size:.85em;
+      font-size:.9em;
       margin-top:1px;
       margin-bottom:0px;
       white-space: pre-wrap;
   }
 
 .favourite{
-    font-size:.85em;
+    font-size:.9em;
     margin-top:1px;
     margin-bottom:2px;
     white-space: pre-wrap;

@@ -137,6 +137,108 @@
                     "img": "ko-fi.png"
                 }
             ]
+        },
+        {
+            "name": "muerpi",
+            "profile": "muerpi.png",
+            "position": "Artist",
+            "bio1": "Quirky artist muerpi hits the scene!",
+            "bio2": "Her single braincell will surprise you!",
+            "fav": "Katsuki Bakugou",
+            "social": [
+                {
+                    "link": "https://www.instagram.com/muerpi/",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://muerpi.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://twitter.com/muerpi",
+                    "img": "twitter.png"
+                }
+            ]
+        },
+        {
+            "name": "RubyRed",
+            "profile": "rubyred.png",
+            "position": "Artist",
+            "bio1": "I go by Ruby, and I'm a digital artist from Pakistan!",
+            "bio2": "",
+            "fav": "Tomura Shigaraki",
+            "social": [
+                {
+                    "link": "https://firefairyrubina.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://twitter.com/rubyredart",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://www.instagram.com/ruby.red5/",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "ionlydate2dboys",
+            "profile": "ionlydate2dboys.png",
+            "position": "Artist",
+            "bio1": "Hi, my name is Archie and I am a future game artist!",
+            "bio2": "I have a soft spot for 2D boys.",
+            "fav": "Izuku Midoriya",
+            "social": [
+                {
+                    "link": "https://twitter.com/ionlydate2dboys",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://ionlydraw2dboys.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://www.instagram.com/ionlydraw2dboys/",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "coffeecakecafe",
+            "profile": "coffeecakecafe.png",
+            "position": "Artist",
+            "bio1": "Professional comic artist with a deep-seated love for superheroes.",
+            "bio2": "",
+            "fav": "Katsuki Bakugou",
+            "social": [
+                {
+                    "link": "https://coffeecakecafe.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://coffeecakecafecomics.com/",
+                    "img": "website.png"
+                }
+            ]
+        },
+        {
+            "name": "dmochii",
+            "profile": "dmochii.png",
+            "position": "Artist",
+            "bio1": "Zine enthusiast!",
+            "bio2": "I love drawing my favorite characters and reading fics.",
+            "fav": "Katsuki Bakugou",
+            "social": [
+                {
+                    "link": "https://twitter.com/dmochii_",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://instagram.com/dmochii_/",
+                    "img": "instagram.png"
+                }
+            ]
         }
  
     ]

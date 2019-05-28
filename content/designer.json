@@ -1,0 +1,49 @@
+{
+    "section":"Designer",
+    "content":[
+        {
+            "name": "cherryshouto",
+            "profile": "cherryshouto.png",
+            "position": "Designer",
+            "bio1": "Design enthusiast and art hobbyist.",
+            "bio2": "My name is Tabitha, but my friends call me Tabs.",
+            "fav": "Shouto Todoroki",
+            "social": [
+                {
+                    "link": "https://cherryshouto.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://www.instagram.com/cherryshouto/",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://twitter.com/cherryshouto",
+                    "img": "twitter.png"
+                }
+            ]
+        },
+        {
+            "name": "Leor",
+            "profile": "leor.png",
+            "position": "Designer",
+            "bio1": "I'm Leor!",
+            "bio2": "I'm a Graphic Designer student and writer who loves BNHA with all their heart!",
+            "fav": "Shouto Todoroki",
+            "social": [
+                {
+                    "link": "https://twitter.com/JordanPGrace",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "http://achillesmonochrome.tumblr.com",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://archiveofourown.org/users/Demisexual_Demise_Leor",
+                    "img": "ao3.png"
+                }
+            ]
+        }
+    ]
+}
