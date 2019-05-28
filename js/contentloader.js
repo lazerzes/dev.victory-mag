@@ -13,7 +13,15 @@ async function load_json_content(content_file, group) {
     sleep(3500);
     var people = data.content;
     if(group !== "staff"){
-        people.sort((a,b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : -1);
+        if(group === "artist"){
+            var sub_people = people.slice(1);
+            var person = people[0];
+            sub_people.sort((a,b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : -1);
+            people = [person];
+            people = people.concat(sub_people);
+        }else{
+            people.sort((a,b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : -1);
+        }
     }
     var cards = [];
     people.forEach(function(person){
@@ -138,6 +146,7 @@ function equalize_container(){
     $('h2').each(function(){
         $(this).fitText(0.7);
     });
+    
 
     var max1 = -1;
     $('.bio').each(function() {

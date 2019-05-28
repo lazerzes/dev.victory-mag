@@ -2,6 +2,24 @@
     "section":"Artist",
     "content":[
         {
+            "name": "Kiri",
+            "profile": "kiri.png",
+            "position": "Cover Artist",
+            "bio1": "Art student who will die for Ozy fate grand order!",
+            "bio2": "Also I love kiwis, both fruit and bird.",
+            "fav": "Shouto Todoroki",
+            "social": [
+                {
+                    "link": "https://twitter.com/choenpalm",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://chonpalm.tumblr.com",
+                    "img": "tumblr.png"
+                }
+            ]
+        },
+        {
             "name": "SHARK",
             "profile": "shark.png",
             "position": "Artist",
@@ -236,6 +254,428 @@
                 },
                 {
                     "link": "https://instagram.com/dmochii_/",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "iownfish",
+            "profile": "iownfish.png",
+            "position": "Artist",
+            "bio1": "Your local brainless fish who flips between meme art and edgy art at the drop of a hat.",
+            "bio2": "Perpetually poor and tired uni student.",
+            "fav": "Hitoshi Shinsou",
+            "social": [
+                {
+                    "link": "https://www.deviantart.com/iownfish",
+                    "img": "deviantart.png"
+                },
+                {
+                    "link": "https://twitter.com/iownedfish",
+                    "img": "twitter.png"
+                }
+            ]
+        },
+        {
+            "name": "tamajikis",
+            "profile": "tamajikis.png",
+            "position": "Artist",
+            "bio1": "A young aspiring artist with a cat.",
+            "bio2": "Probably confused about something.",
+            "fav": "Shouto Todoroki",
+            "social": [
+                {
+                    "link": "https://twitter.com/_tamajikis",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://instagram.com/_tamajikis",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://uraravitii.tumblr.com",
+                    "img": "tumblr.png"
+                }
+            ]
+        },
+        {
+            "name": "Helen",
+            "profile": "helen.png",
+            "position": "Artist",
+            "bio1": "An artist working on developing her art!",
+            "bio2": "A hardcore Nintendo fan obsessed with the Fire Emblem games.",
+            "fav": "Tenya Iida",
+            "social": [
+                {
+                    "link": "https://www.instagram.com/yue.rikuta/",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://rikuta-art.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://twitter.com/RikutaYue",
+                    "img": "twitter.png"
+                }
+            ]
+        },
+        {
+            "name": "supahllama",
+            "profile": "supahllama.png",
+            "position": "Artist",
+            "bio1": "Call me Llama!",
+            "bio2": "I'm an obsessive artist that loves BNHA and creating fanart.",
+            "fav": "Himiko Toga",
+            "social": [
+                {
+                    "link": "https://twitter.com/supah_llama",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://www.instagram.com/supah_llama/",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://supah-llama-artsu.tumblr.com/",
+                    "img": "tumblr.png"
+                }
+            ]
+        },
+        {
+            "name": "Squid",
+            "profile": "squid.png",
+            "position": "Artist",
+            "bio1": "Usually tired.",
+            "bio2": "Lives in the woods and sometimes does art.",
+            "fav": "Mashirao Ojiro",
+            "social": [
+                {
+                    "link": "https://dazed-squid.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://www.instagram.com/little_squid_illustrations/",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://ko-fi.com/dazedsquid",
+                    "img": "ko-fi.png"
+                }
+            ]
+        },
+        {
+            "name": "Eeriekiri",
+            "profile": "eeriekiri.png",
+            "position": "Artist",
+            "bio1": "I'm a self-taught artist from the US with a pet bird!",
+            "bio2": "When I'm not drawing fanart, I'm working on my webcomic or making stuff for my friends.",
+            "fav": "Izuku Midoriya",
+            "social": [
+                {
+                    "link": "https://eeriekiri.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://www.instagram.com/eeriekirii/",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "xafright",
+            "profile": "xafright.png",
+            "position": "Artist",
+            "bio1": "Heyhai I'm Alex!",
+            "bio2": "I like to draw things I like.",
+            "fav": "Katsuki Bakugou",
+            "social": [
+                {
+                    "link": "https://instagram.com/xafright",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://twitter.com/xafright",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": " https://xafright.tumblr.com",
+                    "img": "tumblr.png"
+                }
+            ]
+        },
+        {
+            "name": "Zelda",
+            "profile": "zelda.png",
+            "position": "Artist",
+            "bio1": "Hi I'm Zelda!",
+            "bio2": "I love art and a bit of a mess but that's ok!",
+            "fav": "Shouta Aizawa",
+            "social": [
+                {
+                    "link": "https://zelda-and-princess-hyrule.tumblr.com/",
+                    "img": "tumblr.png"
+                }
+            ]
+        },
+        {
+            "name": "Cordaello",
+            "profile": "cordaello.png",
+            "position": "Artist",
+            "bio1": "Self-taught mouse artist from the Philippines.",
+            "bio2": "Perpetually confused.",
+            "fav": "Ochaco Uraraka",
+            "social": [
+                {
+                    "link": "https://deviantart.com/Cordaello",
+                    "img": "deviantart.png"
+                },
+                {
+                    "link": "https://twitter.com/Cordaello",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://instagram.com/Cordaello",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "Liz F. Caballero",
+            "profile": "lizfcaballero.png",
+            "position": "Artist",
+            "bio1": "Traditional artist, cosplayer and full time daydreamer.",
+            "bio2": "Karaoke enthusiast.",
+            "fav": "Mei Hatsume",
+            "social": [
+                {
+                    "link": "https://twitter.com/lizfcaballero",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://alkanetart.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://www.instagram.com/lizfcaballero/",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "Eggzumii",
+            "profile": "eggzumii.png",
+            "position": "Artist",
+            "bio1": "Your resident egg who loves warm colors and warmer hugs!",
+            "bio2": "",
+            "fav": "Tomura Shigaraki",
+            "social": [
+                {
+                    "link": "https://www.instagram.com/eggzumii/",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://www.eggzumii.tumblr.com",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://twitter.com/eggzumii?s=09",
+                    "img": "twitter.png"
+                }
+            ]
+        },
+        {
+            "name": "cori.cola",
+            "profile": "coricola.png",
+            "position": "Artist",
+            "bio1": "Hi, i'm cori and I like to draw and shout about things I love on the internet!",
+            "bio2": "",
+            "fav": "Katsuki Bakugou",
+            "social": [
+                {
+                    "link": "https://twitter.com/policecaaaaaaat",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://25coriandah.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://www.instagram.com/policecaaaaaaats/",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "BetaTwinArt",
+            "profile": "betatwinart.png",
+            "position": "Artist",
+            "bio1": "Hello I'm BetaTwinArt!",
+            "bio2": "I love to draw dumb things and inhale carbs!",
+            "fav": "Ochako Uraraka",
+            "social": [
+                {
+                    "link": "betatwinart.tumblr.com",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "twitter.com/betatwinart",
+                    "img": "twitter.png"
+                }
+            ]
+        },
+        {
+            "name": "RaccoonArtist",
+            "profile": "raccoonartist.png",
+            "position": "Artist",
+            "bio1": "Animation student with a passion for character design!",
+            "bio2": "I love drawing fan art but I live for one day making original content!",
+            "fav": "Ochaco Uraraka",
+            "social": [
+                {
+                    "link": "https://www.instagram.com/raccoonartist/",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://twitter.com/RaccoonOfArt",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://raccoonartist.tumblr.com",
+                    "img": "tumblr.png"
+                }
+            ]
+        },
+        {
+            "name": "Ell",
+            "profile": "ell.png",
+            "position": "Artist",
+            "bio1": "I’m a hobby artist from Colorado!",
+            "bio2": "BNHA is one of my favorite shows, so I’m super excited about this project.",
+            "fav": "Tomura Shigaraki",
+            "social": [
+                {
+                    "link": "lunchmoney-lance.tumblr.com",
+                    "img": "tumblr.png"
+                }
+            ]
+        },
+        {
+            "name": "LexiLopezi",
+            "profile": "lexilopezi.png",
+            "position": "Artist",
+            "bio1": "Gremlin arting hands can't be stopped!",
+            "bio2": "Also never a bad time to have feelings about media.",
+            "fav": "Eijiro Kirishima",
+            "social": [
+                {
+                    "link": "https://writerdragon.tumblr.com",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://twitter.com/LexiLopezi",
+                    "img": "twitter.png"
+                }
+            ]
+        },
+        {
+            "name": "Margo-sama",
+            "profile": "margosama.png",
+            "position": "Artist",
+            "bio1": "Russian artist with a short temper and a long list of favorite fandoms.",
+            "bio2": "",
+            "fav": "Katsuki Bakugou",
+            "social": [
+                {
+                    "link": "https://twitter.com/margosama",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://www.instagram.com/margo_sama/",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://margo-sama.tumblr.com/",
+                    "img": "tumblr.png"
+                }
+            ]
+        },
+        {
+            "name": "eznochi",
+            "profile": "eznochi.png",
+            "position": "Artist",
+            "bio1": "Devoted artist and enjoyer of tea.",
+            "bio2": "I hold my sketchbooks close to my heart.",
+            "fav": "Katsuki Bakugou",
+            "social": [
+                {
+                    "link": "https://twitter.com/eznochi",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://eznochi.tumblr.com",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://instagram.com/eznochi",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "Marionette Jones",
+            "profile": "marionettejones.png",
+            "position": "Artist",
+            "bio1": "MJ here, a multi-medium artist with an obsession with detail and world building.",
+            "bio2": "I'm planning on making comics in the future.",
+            "fav": "Mashirao Ojiro",
+            "social": [
+                {
+                    "link": "https://marionettejonesdraws.tumblr.com",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://twitter.com/marionettejones",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://www.instagram.com/marionette_jones/",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "vvhimsi",
+            "profile": "vvhimsi.png",
+            "position": "Artist",
+            "bio1": "I'm Faye, a 14-year-old self taught digital artist from the Philippines!",
+            "bio2": "Gotta love that wlw.",
+            "fav": "Ochaco Uraraka",
+            "social": [
+                {
+                    "link": "https://vvhimsi.tumblr.com/",
+                    "img": "tumblr.png"
+                }
+            ]
+        },
+        {
+            "name": "abysque",
+            "profile": "abysque.png",
+            "position": "Artist",
+            "bio1": "If you walk into your local cave and say \"hewwo, mr obama?\" three times, you might summon Mr. Obama.",
+            "bio2": "Or you might summon me, his unofficial, unpaid intern.",
+            "fav": "Katsuki Bakugou",
+            "social": [
+                {
+                    "link": "https://twitter.com/abysque",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://abysque.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://www.instagram.com/abysmious/",
                     "img": "instagram.png"
                 }
             ]

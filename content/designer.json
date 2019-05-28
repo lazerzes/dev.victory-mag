@@ -44,6 +44,28 @@
                     "img": "ao3.png"
                 }
             ]
+        },
+        {
+            "name": "Kipio",
+            "profile": "kipio.png",
+            "position": "Designer",
+            "bio1": "Hey! I’m Kimberly!",
+            "bio2": "I'm an Illustrator and Designer with an avid imagination to create more things!",
+            "fav": "Katsuki Bakugou",
+            "social": [
+                {
+                    "link": "https://twitter.com/Kipio_",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://kipio.tumblr.com",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://www.instagram.com/kipio_/",
+                    "img": "instagram.png"
+                }
+            ]
         }
     ]
 }

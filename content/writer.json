@@ -124,6 +124,28 @@
                     "img": "ao3.png"
                 }
             ]
+        },
+        {
+            "name": "Eramia",
+            "profile": "eramia.png",
+            "position": "Writer",
+            "bio1": "Young, mean, writing machine!",
+            "bio2": "My two talents are making unique AUs and rage.",
+            "fav": "Toru Hagakure",
+            "social": [
+                {
+                    "link": "https://eramia.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://twitter.com/mamaeramia",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://archiveofourown.org/users/Eramia/works",
+                    "img": "ao3.png"
+                }
+            ]
         }
  
     ]
