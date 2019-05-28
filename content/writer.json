@@ -22,6 +22,46 @@
                     "img": "ao3.png"
                 }
             ]
+        },
+        {
+            "name": "bombshellbrunette",
+            "profile": "bombshellbrunette.png",
+            "position": "Writer",
+            "bio1": "My name is Millie, and I’m here for a long time, not a good time.",
+            "bio2": "Writing is my passion.",
+            "fav": "Momo Yaoyorozu",
+            "social": [
+                {
+                    "link": "https://archiveofourown.org/users/bombshellbrunette/works",
+                    "img": "ao3.png"
+                },
+                {
+                    "link": "https://twitter.com/bombshellbrune",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://bombshellbrunette.tumblr.com/",
+                    "img": "tumblr.png"
+                }
+            ]
+        },
+        {
+            "name": "Naudia",
+            "profile": "naudia.png",
+            "position": "Writer",
+            "bio1": "Writer, poet, & big-hearted sap.",
+            "bio2": "Happiest when writing fluff so sweet it warms your heart!",
+            "fav": "Eijiro Kirishima",
+            "social": [
+                {
+                    "link": "https://chrysanthemums-s.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://archiveofourown.org/users/Chrysanthemums_s",
+                    "img": "ao3.png"
+                }
+            ]
         }
  
     ]

@@ -131,6 +131,10 @@ while ( new Date().getTime() < now + millisecondsToWait )
 
 function equalize_container(){
 
+    $('h2').each(function(){
+        $(this).fitText(0.7);
+    });
+
     var max1 = -1;
     $('.bio').each(function() {
         var h = $(this).height(); 

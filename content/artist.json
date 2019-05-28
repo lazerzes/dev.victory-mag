@@ -115,6 +115,28 @@
                     "img": "twitter.png"
                 }
             ]
+        },
+        {
+            "name": "karmyma",
+            "profile": "karmyma.png",
+            "position": "Artist",
+            "bio1": "My name is Laura and I'm a hobbyist artist!",
+            "bio2": "I love drawing kiribaku in my spare time.",
+            "fav": "Katsuki Bakugou",
+            "social": [
+                {
+                    "link": "https://karmyma.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://twitter.com/karmyma",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://ko-fi.com/onekarmy",
+                    "img": "ko-fi.png"
+                }
+            ]
         }
  
     ]
