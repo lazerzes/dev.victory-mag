@@ -1,13 +1,16 @@
 
+
 async function load_json_content(content_file, group) {
 
+    
+
     remove_content();
+    $('.sk-folding-cube').show();
 
     const response = await fetch('content/'+content_file);
     const data = await response.json();
     
-    sleep(400);
-
+    sleep(3500);
     var people = data.content;
     var cards = [];
     people.forEach(function(person){
@@ -92,6 +95,8 @@ async function load_json_content(content_file, group) {
     });
 
     var content_container = document.getElementById("content-container");
+
+    $('.sk-folding-cube').hide();
 
     cards.forEach(function(card){
         content_container.appendChild(card);
