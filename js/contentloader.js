@@ -12,6 +12,9 @@ async function load_json_content(content_file, group) {
     
     sleep(3500);
     var people = data.content;
+    if(group !== "staff"){
+        people.sort((a,b) => (a.name > b.name) ? 1 : -1);
+    }
     var cards = [];
     people.forEach(function(person){
         
@@ -56,6 +59,7 @@ async function load_json_content(content_file, group) {
         var social = document.createElement("div");
         social.setAttribute("class", "h100 row align-items-center social");
         var social_links = person.social;
+        social_links.sort((a,b) => (a.img > b.img) ? 1 : -1);
         social_links.forEach(function(social_link){
             var n = document.createElement("div");
             n.setAttribute("class", "col-lg-4 col-xs-12");
