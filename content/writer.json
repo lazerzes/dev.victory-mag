@@ -146,6 +146,28 @@
                     "img": "ao3.png"
                 }
             ]
+        },
+        {
+            "name": "Ashley Glenn",
+            "profile": "ashleyglenn.png",
+            "position": "Writer",
+            "bio1": "I love writing and audio editing with a passion for fandom! ",
+            "bio2": "",
+            "fav": "Shouta Aizawa",
+            "social": [
+                {
+                    "link": "https://twitter.com/ashleysanime",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "http://originexus.com/",
+                    "img": "website.png"
+                },
+                {
+                    "link": "http://blackmoorproductions.com/",
+                    "img": "website.png"
+                }
+            ]
         }
  
     ]
