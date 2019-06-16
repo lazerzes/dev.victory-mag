@@ -405,20 +405,6 @@
             ]
         },
         {
-            "name": "Zelda",
-            "profile": "zelda.png",
-            "position": "Artist",
-            "bio1": "Hi I'm Zelda!",
-            "bio2": "I love art and a bit of a mess but that's ok!",
-            "fav": "Shouta Aizawa",
-            "social": [
-                {
-                    "link": "https://zelda-and-princess-hyrule.tumblr.com/",
-                    "img": "tumblr.png"
-                }
-            ]
-        },
-        {
             "name": "Cordaello",
             "profile": "cordaello.png",
             "position": "Artist",
@@ -481,28 +467,6 @@
                 {
                     "link": "https://twitter.com/eggzumii?s=09",
                     "img": "twitter.png"
-                }
-            ]
-        },
-        {
-            "name": "cori.cola",
-            "profile": "coricola.png",
-            "position": "Artist",
-            "bio1": "Hi, i'm cori and I like to draw and shout about things I love on the internet!",
-            "bio2": "",
-            "fav": "Katsuki Bakugou",
-            "social": [
-                {
-                    "link": "https://twitter.com/policecaaaaaaat",
-                    "img": "twitter.png"
-                },
-                {
-                    "link": "https://25coriandah.tumblr.com/",
-                    "img": "tumblr.png"
-                },
-                {
-                    "link": "https://www.instagram.com/policecaaaaaaats/",
-                    "img": "instagram.png"
                 }
             ]
         },
