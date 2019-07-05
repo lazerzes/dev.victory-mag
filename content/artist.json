@@ -651,6 +651,28 @@
                     "img": "instagram.png"
                 }
             ]
+        },
+        {
+            "name": "doddily",
+            "profile": "doddily.png",
+            "position": "Artist",
+            "bio1": "17 year old who loves theories and variety",
+            "bio2": "",
+            "fav": "Shouto Todoroki",
+            "social": [
+                {
+                    "link": "https://twitter.com/doddily_?s=09",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://doddily.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://www.instagram.com/doddily_/",
+                    "img": "instagram.png"
+                }
+            ]
         }
  
     ]
