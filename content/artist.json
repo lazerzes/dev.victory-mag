@@ -20,7 +20,7 @@
             ]
         },
         {
-            "name": "SHARK",
+            "name": "ggulppong 「グル」",
             "profile": "shark.png",
             "position": "Artist",
             "bio1": "My name is Shark because I have really sharp teeth!",
@@ -241,24 +241,6 @@
             ]
         },
         {
-            "name": "dmochii",
-            "profile": "dmochii.png",
-            "position": "Artist",
-            "bio1": "Zine enthusiast!",
-            "bio2": "I love drawing my favorite characters and reading fics.",
-            "fav": "Katsuki Bakugou",
-            "social": [
-                {
-                    "link": "https://twitter.com/dmochii_",
-                    "img": "twitter.png"
-                },
-                {
-                    "link": "https://instagram.com/dmochii_/",
-                    "img": "instagram.png"
-                }
-            ]
-        },
-        {
             "name": "iownfish",
             "profile": "iownfish.png",
             "position": "Artist",
@@ -471,24 +453,6 @@
             ]
         },
         {
-            "name": "BetaTwinArt",
-            "profile": "betatwinart.png",
-            "position": "Artist",
-            "bio1": "Hello I'm BetaTwinArt!",
-            "bio2": "I love to draw dumb things and inhale carbs!",
-            "fav": "Ochako Uraraka",
-            "social": [
-                {
-                    "link": "betatwinart.tumblr.com",
-                    "img": "tumblr.png"
-                },
-                {
-                    "link": "twitter.com/betatwinart",
-                    "img": "twitter.png"
-                }
-            ]
-        },
-        {
             "name": "RaccoonArtist",
             "profile": "raccoonartist.png",
             "position": "Artist",
@@ -640,6 +604,50 @@
                 },
                 {
                     "link": "https://www.instagram.com/abysmious/",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "0rchidd",
+            "profile": "0rchidd.png",
+            "position": "Artist",
+            "bio1": "Digital illustration hobbiest from California.",
+            "bio2": "Kirishima soothes my soul and KiriBaku lights up my heart!",
+            "fav": "Eijiro Kirishima",
+            "social": [
+                {
+                    "link": "https://twitter.com/0rchidd",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://minds.com/0rchidd",
+                    "img": "minds.png"
+                },
+                {
+                    "link": "https://instagram.com/0rchidd",
+                    "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name": "Captain Bonan",
+            "profile": "CaptainBonan.png",
+            "position": "Artist",
+            "bio1": "Digital illustration hobbiest from California.",
+            "bio2": "Kirishima soothes my soul and KiriBaku lights up my heart!",
+            "fav": "Momo Yaoyorozu",
+            "social": [
+                {
+                    "link": "https://twitter.com/sirbananaiso/",
+                    "img": "twitter.png"
+                },
+                {
+                    "link": "https://captainbonan.tumblr.com/",
+                    "img": "tumblr.png"
+                },
+                {
+                    "link": "https://www.instagram.com/captain.bonan/",
                     "img": "instagram.png"
                 }
             ]

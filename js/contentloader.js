@@ -79,6 +79,7 @@ async function load_json_content(content_file, group) {
             var img = document.createElement("img");
             img.setAttribute("class", "img-thumbnail logo");
             img.setAttribute("src", "img/logos/" + social_link.img);
+            img.setAttribute("alt", "social icon " + social_link.img)
             a.appendChild(img);
 
             n.appendChild(a);
@@ -92,7 +93,7 @@ async function load_json_content(content_file, group) {
 
         var profile = document.createElement("img");
         profile.setAttribute("src", "img/" + group + "/" + person.profile);
-        profile.setAttribute("alt", "profile image");
+        profile.setAttribute("alt", "profile image for " + person.name);
         profile.setAttribute("class", "img-fluid profile shadow center");
         card.appendChild(profile);
         card.appendChild(person_container);
