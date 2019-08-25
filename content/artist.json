@@ -117,24 +117,6 @@
             ]
         },
         {
-            "name": "Nanometre",
-            "profile": "nanometre.png",
-            "position": "Artist",
-            "bio1": "Love me my art, maths and tea (both types), but most importantly I love all my fictional BABIES!!",
-            "bio2": "",
-            "fav": "Mei Hatsume",
-            "social": [
-                {
-                    "link": "https://www.instagram.com/nano.metre/",
-                    "img": "instagram.png"
-                },
-                {
-                    "link": "https://twitter.com/nanometree",
-                    "img": "twitter.png"
-                }
-            ]
-        },
-        {
             "name": "karmyma",
             "profile": "karmyma.png",
             "position": "Artist",
@@ -153,28 +135,6 @@
                 {
                     "link": "https://ko-fi.com/onekarmy",
                     "img": "ko-fi.png"
-                }
-            ]
-        },
-        {
-            "name": "muerpi",
-            "profile": "muerpi.png",
-            "position": "Artist",
-            "bio1": "Quirky artist muerpi hits the scene!",
-            "bio2": "Her single braincell will surprise you!",
-            "fav": "Katsuki Bakugou",
-            "social": [
-                {
-                    "link": "https://www.instagram.com/muerpi/",
-                    "img": "instagram.png"
-                },
-                {
-                    "link": "https://muerpi.tumblr.com/",
-                    "img": "tumblr.png"
-                },
-                {
-                    "link": "https://twitter.com/muerpi",
-                    "img": "twitter.png"
                 }
             ]
         },
@@ -343,24 +303,6 @@
                 {
                     "link": "https://ko-fi.com/dazedsquid",
                     "img": "ko-fi.png"
-                }
-            ]
-        },
-        {
-            "name": "Eeriekiri",
-            "profile": "eeriekiri.png",
-            "position": "Artist",
-            "bio1": "I'm a self-taught artist from the US with a pet bird!",
-            "bio2": "When I'm not drawing fanart, I'm working on my webcomic or making stuff for my friends.",
-            "fav": "Izuku Midoriya",
-            "social": [
-                {
-                    "link": "https://eeriekiri.tumblr.com/",
-                    "img": "tumblr.png"
-                },
-                {
-                    "link": "https://www.instagram.com/eeriekirii/",
-                    "img": "instagram.png"
                 }
             ]
         },
@@ -671,6 +613,24 @@
                 {
                     "link": "https://www.instagram.com/doddily_/",
                     "img": "instagram.png"
+                }
+            ]
+        },
+        {
+            "name":"sapphiredragons",
+            "profile":"sapphiredragons.png",
+            "position":"Artist",
+            "bio1":"Just another illustrator with a penchant for drawing gals and an endless pile of projects. I'll get there one day!",
+            "bio2":"",
+            "fav":"Izuku Midoriya",
+            "social":[
+                {
+                    "link": "https://www.instagram.com/sapphiredragons/?hl=en",
+                    "img": "instagram.png"
+                },
+                {
+                    "link": "https://sapphirescalemate.tumblr.com/",
+                    "img": "tumblr.png"
                 }
             ]
         }
