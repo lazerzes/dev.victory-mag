@@ -1,5 +1,0 @@
-.bg:nth-of-type(2){
-    -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-}
-

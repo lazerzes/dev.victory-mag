@@ -1,0 +1,28 @@
+{
+  "semi": false,
+  "overrides": [
+    {
+      "files": "*.ts",
+      "options": {
+        "useTabs": false,
+        "tabWidth": 2,
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "semi": true,
+        "parser": "typescript"
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "useTabs": false,
+        "tabWidth": 2,
+        "singleQuote": false,
+        "semi": false,
+        "parser": "angular"
+      }
+    }
+  ],
+  "rcVerbose": true,
+  "printWidth": 140
+}
