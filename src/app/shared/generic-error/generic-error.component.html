@@ -1,7 +1,25 @@
 <div id="landing-page" class="h-100 w-100 d-flex flex-row justify-content-center">
-  <div class="h-100 w-50 d-flex flex-column justify-content-center">
+  <div class="h-100 col-12 col-md-8 d-flex flex-column justify-content-center" *ngIf="errorMessage">
     <mat-card>
-      <mat-card-header>Error Page</mat-card-header>
+      <mat-card-header class="text-center w-100 justify-content-center">
+        <mat-card-title class="text-center w-100 justify-content-center">
+          <h1 class="text-center" style="font-size: 3.5vw; white-space: nowrap;">
+            <i class="fas fa-exclamation-circle text-danger"></i> {{ errorMessage.title }}
+            <i class="fas fa-exclamation-circle text-danger"></i>
+          </h1>
+        </mat-card-title>
+      </mat-card-header>
+      <hr />
+      <mat-card-content>
+        <p class="text-center" style="font-size: 2.75vw;">
+          {{ errorMessage.description }}
+        </p>
+        <div *ngIf="errorMessage?.link" class="w-100">
+          <button (click)="handleErrorRedirect(errorMessage.link.type, errorMessage.link.href)" class="btn btn-outline-danger w-100">
+            {{ errorMessage.link.text }}
+          </button>
+        </div>
+      </mat-card-content>
     </mat-card>
   </div>
 </div>

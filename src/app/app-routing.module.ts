@@ -10,12 +10,12 @@ const routes: Routes = [
     pathMatch: 'full',
   },
   {
-    path: '404',
+    path: 'error/:errorType',
     component: GenericErrorComponent,
   },
   {
     path: '**',
-    redirectTo: '404',
+    redirectTo: 'error/PageNotFound',
   },
 ];
 

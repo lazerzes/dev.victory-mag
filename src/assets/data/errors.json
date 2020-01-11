@@ -1,0 +1,22 @@
+[
+  {
+    "errorType": "PageNotFound",
+    "title": "Couldn't find the desired page.",
+    "description": "Sorry, but we couldn't find the page you are trying to go to. Perhaps there is a typeo?",
+    "link": {
+      "text": "Return to Home",
+      "type": "internal",
+      "href": ["/"]
+    }
+  },
+  {
+    "errorType": "Default",
+    "title": "We encountered an unknown error.",
+    "description": "We aren't quite sure what happened, please report what steps you took to our issues page.",
+    "link": {
+      "text": "Report an Issue",
+      "type": "external",
+      "href": "https://github.com/lazerzes/victory-mag/issues"
+    }
+  }
+]
