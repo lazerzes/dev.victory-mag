@@ -1,25 +1,55 @@
-<div id="landing-page" class="h-100 w-100 d-flex flex-row justify-content-center">
-  <div class="h-100 col-12 col-md-8 d-flex flex-column justify-content-center" *ngIf="errorMessage">
-    <mat-card>
-      <mat-card-header class="text-center w-100 justify-content-center">
-        <mat-card-title class="text-center w-100 justify-content-center">
-          <h1 class="text-center" style="font-size: 3.5vw; white-space: nowrap;">
+<div id="error-page" class="container-fluid p-0 m-0 h-100 w-100" *ngIf="errorMessage">
+  <div class="row align-items-center m-0 p-0 h-100 w-100">
+    <div class="col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2">
+      <mat-card class="my-5">
+        <mat-card-header class="justify-content-center">
+          <h1 class="text-center" style="font-size: 3.25vw; white-space: nowrap;">
             <i class="fas fa-exclamation-circle text-danger"></i> {{ errorMessage.title }}
             <i class="fas fa-exclamation-circle text-danger"></i>
           </h1>
-        </mat-card-title>
-      </mat-card-header>
-      <hr />
-      <mat-card-content>
-        <p class="text-center" style="font-size: 2.75vw;">
-          {{ errorMessage.description }}
-        </p>
-        <div *ngIf="errorMessage?.link" class="w-100">
-          <button (click)="handleErrorRedirect(errorMessage.link.type, errorMessage.link.href)" class="btn btn-outline-danger w-100">
-            {{ errorMessage.link.text }}
-          </button>
-        </div>
-      </mat-card-content>
-    </mat-card>
+        </mat-card-header>
+        <hr />
+        <mat-card-content>
+          <p class="text-center" style="font-size: 2.75vw;">
+            {{ errorMessage.description }}
+          </p>
+
+          <div *ngIf="getErrorMessage() | async as errorData" class="my-4">
+            <mat-card>
+              <div class="h-100 w-100" *ngIf="showErrorAdvanced; then errorAdvanced; else showAdvancedButton"></div>
+            </mat-card>
+            <ng-template #errorAdvanced>
+              <mat-card-header class="justify-content-center">
+                <mat-card-title>
+                  <h3 class="text-center" style="font-size: 2.75vw;">Advanced Error Info</h3>
+                </mat-card-title>
+              </mat-card-header>
+              <hr />
+              <mat-card-content>
+                <pre class="p-0 m-0">
+                {{ errorData | json }}
+              </pre
+                >
+                <button class="btn btn-outline-info w-100 mt-3" (click)="showErrorAdvanced = !showErrorAdvanced">
+                  Toggle Advanced Error Info
+                </button>
+              </mat-card-content>
+            </ng-template>
+            <ng-template #showAdvancedButton>
+              <mat-card-content class="w-100">
+                <button class="btn btn-outline-info w-100" (click)="showErrorAdvanced = !showErrorAdvanced">
+                  Toggle Advanced Error Info
+                </button>
+              </mat-card-content>
+            </ng-template>
+          </div>
+          <div *ngIf="errorMessage?.link" class="w-100">
+            <button (click)="handleErrorRedirect(errorMessage.link.type, errorMessage.link.href)" class="btn btn-outline-danger w-100">
+              {{ errorMessage.link.text }}
+            </button>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
   </div>
 </div>
