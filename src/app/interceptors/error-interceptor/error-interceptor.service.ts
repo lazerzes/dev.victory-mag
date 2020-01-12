@@ -12,6 +12,11 @@ export class ErrorInterceptorService implements ErrorHandler {
     const router = this.injector.get(Router);
     const errorService = this.injector.get(ErrorService);
 
+    if (['TypeError'].includes(error.name)) {
+      console.error(error);
+      return;
+    }
+
     this.zone.run(() => {
       errorService.setCurrentError(error);
       router.navigate(['/', 'error', error.name]);
