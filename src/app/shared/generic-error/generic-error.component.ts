@@ -28,13 +28,7 @@ export class GenericErrorComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.bg.setBackground('../../../assets/images/backgrounds/ua-heights-error.png');
-    this.subscription = this.route.paramMap
-      .pipe(
-        switchMap(paramMap => {
-          return this.getErrorTypeMessage(paramMap.get('errorType'));
-        })
-      )
-      .subscribe(data => (this.errorMessage = data));
+    this.subscription = this.getErrorTypeMessage().subscribe(data => (this.errorMessage = data));
   }
 
   ngOnDestroy(): void {
@@ -43,14 +37,21 @@ export class GenericErrorComponent implements OnInit, OnDestroy {
     this.error.setCurrentError(null);
   }
 
-  getErrorTypeMessage(errorType): Observable<any> {
-    return this.http.get('../../../assets/data/errors.json').pipe(
-      switchMap(data => {
-        if (Array.isArray(data)) {
-          const response = data.filter(single => [errorType, 'Default'].includes(single.errorType));
-          return of(response.length > 0 ? response[0] : null);
-        }
-        return of(data);
+  getErrorTypeMessage(): Observable<any> {
+    const errorRef$ = err =>
+      this.http.get('../../../assets/data/errors.json').pipe(
+        switchMap(data => {
+          if (Array.isArray(data)) {
+            const response = data.filter(single => [err, 'Default'].includes(single.errorType));
+            return of(response.length > 0 ? response[0] : null);
+          }
+          return of(data);
+        })
+      );
+
+    return this.route.paramMap.pipe(
+      switchMap(paramMap => {
+        return errorRef$(paramMap.get('errorType'));
       })
     );
   }
