@@ -1,3 +1,4 @@
+import { shareReplay } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 
@@ -14,6 +15,6 @@ export class BackgroundService {
   }
 
   getBackground(): Observable<string> {
-    return this.backgroundSubject$.asObservable();
+    return this.backgroundSubject$.pipe(shareReplay());
   }
 }
