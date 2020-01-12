@@ -28,7 +28,7 @@ export class GenericErrorComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.bg.setBackground('../../../assets/images/backgrounds/ua-heights-error.png');
-    this.subscription = this.getErrorTypeMessage().subscribe(data => (this.errorMessage = data));
+    this.subscription = this.getErrorMessage().subscribe(data => (this.errorMessage = data));
   }
 
   ngOnDestroy(): void {
@@ -37,8 +37,8 @@ export class GenericErrorComponent implements OnInit, OnDestroy {
     this.error.setCurrentError(null);
   }
 
-  getErrorTypeMessage(): Observable<any> {
-    const errorRef$ = err =>
+  getErrorMessage(): Observable<any> {
+    const errorRef$ = (err: string) =>
       this.http.get('../../../assets/data/errors.json').pipe(
         switchMap(data => {
           if (Array.isArray(data)) {
@@ -66,7 +66,7 @@ export class GenericErrorComponent implements OnInit, OnDestroy {
     }
   }
 
-  getErrorMessage(): Observable<Error> {
+  getErrorAdvanced(): Observable<Error> {
     return this.error.getErrorObservable();
   }
 }

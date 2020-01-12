@@ -14,7 +14,7 @@
             {{ errorMessage.description }}
           </p>
 
-          <div *ngIf="getErrorMessage() | async as errorData" class="my-4">
+          <div *ngIf="getErrorAdvanced() | async as errorData" class="my-4">
             <mat-card>
               <div class="h-100 w-100" *ngIf="showErrorAdvanced; then errorAdvanced; else showAdvancedButton"></div>
             </mat-card>
