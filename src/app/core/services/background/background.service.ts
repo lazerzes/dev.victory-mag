@@ -6,7 +6,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class BackgroundService {
-  private backgroundSubject$: BehaviorSubject<string> = new BehaviorSubject(null);
+  private readonly backgroundSubject$: BehaviorSubject<string> = new BehaviorSubject(null);
 
   constructor() {}
 
