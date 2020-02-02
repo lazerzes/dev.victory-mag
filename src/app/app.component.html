@@ -1,5 +1,19 @@
-<div id="primary-router" class="h-100 w-100 background-cover" [style.background-image]="background">
-  <div class="h-100 w-100 overflow-auto">
-    <router-outlet></router-outlet>
+<div id="main" class="h-100 w-100 background-cover" [style.background-image]="resolveBackground(background$ | async)">
+  <div class="d-flex flex-column h-100 w-100">
+    <ng-container *ngIf="displayHeader$ | async as displayHeader">
+      <div id="header" class="flex-shrink-1" *ngIf="displayHeader">
+        Header
+      </div>
+    </ng-container>
+    <div id="main-content" class="flex-grow-1">
+      <div class="h-100 w-100 overflow-auto">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <ng-container *ngIf="displayFooter$ | async as displayFooter">
+      <div id="footer" class="flex-shrink-1" *ngIf="displayFooter">
+        Footer
+      </div>
+    </ng-container>
   </div>
 </div>
