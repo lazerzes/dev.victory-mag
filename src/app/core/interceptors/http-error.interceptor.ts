@@ -3,10 +3,8 @@ import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent, HttpErrorResponse
 import { Observable, throwError } from 'rxjs';
 import { retry, catchError } from 'rxjs/operators';
 
-@Injectable({
-  providedIn: 'root',
-})
-export class HttpInterceptorService implements HttpInterceptor {
+@Injectable()
+export class HttpErrorInterceptor implements HttpInterceptor {
   constructor() {}
 
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {

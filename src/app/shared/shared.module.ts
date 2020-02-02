@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { GenericErrorComponent } from './generic-error/generic-error.component';
+import { GenericErrorComponent } from './pages/generic-error/generic-error.component';
 import { MatCardModule } from '@angular/material/card';
 
 @NgModule({

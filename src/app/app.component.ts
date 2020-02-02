@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { BackgroundService } from './services/background/background.service';
+import { BackgroundService } from './core/services/background/background.service';
 import { Subscription } from 'rxjs';
 
 @Component({

@@ -1,13 +1,21 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { GenericErrorComponent } from './shared/generic-error/generic-error.component';
+
+import { GenericErrorComponent } from './shared/pages/generic-error/generic-error.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    redirectTo: 'landing',
     pathMatch: 'full',
+  },
+  {
+    path: 'landing',
+    loadChildren: () => import('./modules/landing/landing.module').then(m => m.LandingModule),
+  },
+  {
+    path: 'home',
+    loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule),
   },
   {
     path: 'error/:errorType',

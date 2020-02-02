@@ -1,6 +1,6 @@
-import { ErrorService } from './../../services/error/error.service';
+import { ErrorService } from '../../../core/services/error/error.service';
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { BackgroundService } from 'src/app/services/background/background.service';
+import { BackgroundService } from 'src/app/core/services/background/background.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of, Subscription } from 'rxjs';
 import { switchMap, tap } from 'rxjs/operators';

@@ -1,11 +1,9 @@
-import { ErrorService } from './../../services/error/error.service';
+import { ErrorService } from '../services/error/error.service';
 import { Injectable, Injector, ErrorHandler, NgZone } from '@angular/core';
 import { Router } from '@angular/router';
 
-@Injectable({
-  providedIn: 'root',
-})
-export class ErrorInterceptorService implements ErrorHandler {
+@Injectable()
+export class ErrorInterceptor implements ErrorHandler {
   constructor(private injector: Injector, private zone: NgZone) {}
 
   handleError(error: Error): void {
